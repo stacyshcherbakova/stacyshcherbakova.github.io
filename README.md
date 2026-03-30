@@ -1,4 +1,4 @@
-# Stacy Shcherbakova — Portfolio
+# My Portfolio (notes for future self)
 
 Personal portfolio website built with **React** and **Vite**.
 
