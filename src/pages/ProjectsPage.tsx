@@ -8,7 +8,11 @@ export function ProjectsPage() {
       <div className="stack-list">
         {projects.map((project) => (
           <article key={project.name} className="item-card">
-            <strong>{project.name}</strong>
+            {'href' in project && project.href ? (
+              <a href={project.href} target="_blank" rel="noopener noreferrer"><strong>{project.name}</strong></a>
+            ) : (
+              <strong>{project.name}</strong>
+            )}
             <p>{project.description}</p>
             <div className="tag-row">
               {project.tags.map((tag) => (
