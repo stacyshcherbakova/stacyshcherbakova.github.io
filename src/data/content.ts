@@ -29,7 +29,7 @@ export const experience = [
   {
     role: 'Research Software Engineer',
     org: 'Institute of Cancer Research',
-    dates: 'October 2024 – Present',
+    dates: 'October 2024 - Present',
     bullets: [
       'Partnered directly with researchers to gather requirements and develop software solutions supporting cancer research, ranging from data-processing pipelines to full-stack Flask/MySQL web applications.',
       'Built and maintained deployment infrastructure for internal research applications using Docker, NGINX, MySQL, and CI/CD automation.',
@@ -43,14 +43,14 @@ export const education = [
   {
     degree: 'MSc Computer Science',
     place: 'University College London, UK',
-    dates: 'September 2023 – September 2024',
+    dates: 'September 2023 - September 2024',
     notes:
       'Relevant modules: Database Fundamentals, Algorithms, Computer Architecture, App Engineering, Software Engineering, Functional Programming, Applied Deep Learning.',
   },
   {
     degree: 'BSc Biomedical Sciences',
     place: 'University College London, UK',
-    dates: 'September 2020 – May 2023',
+    dates: 'September 2020 - May 2023',
     notes:
       'Relevant modules: Introductory Statistical Methods and Computing, Linear Algebra for Data Science, Advanced Statistics and Machine Learning for Biosciences.',
   },
@@ -93,38 +93,54 @@ export const projects = [
     name: 'Genome Minimizer 2 UI',
     description: 'A local interface for running the genome-minimizer-2 pipeline, inspecting logs, and browsing generated artifacts.',
     tags: ['React', 'FastAPI', 'Synthetic Biology'],
+    href: 'https://github.com/stacyshcherbakova/genome-minimizer-ui',
   },
   {
-    name: 'Minimal Bacterial Genomes using Generative Machine Learning Models',
-    description: 'Master’s thesis work on building a VAE model to generate new bacterial genomes and additional pipelines to assess genome viability.',
+    name: 'Genome Minimizer 2',
+    description: "Master's thesis work on building a VAE model to generate new bacterial genomes and additional pipelines to assess genome viability.",
     tags: ['VAEs', 'Research Software', 'Synthetic Biology'],
+    href: 'https://github.com/ucl-cssb/genome-minimizer-2',
+  },
+  {
+    name: 'Chemistry Agent',
+    description: 'A science agent built with the FutureHouse Aviary and LDP (Language Decision Processes) frameworks, capable of solving GCSE-level chemistry problems. The agent selects domain-specific tools, maintains a reasoning chain across calls, and evaluates multi-step calculations.',
+    tags: ['Python', 'AI Agents', 'FutureHouse', 'LDP', 'Chemistry'],
+    href: 'https://github.com/stacyshcherbakova/chemistry-agent',
   },
 ];
 
 export const researchProjects = [
   {
-    title: 'Master’s Thesis at Prof Chris Barnes’ Lab',
-    dates: 'June 2024 – September 2024',
+    title: "Master's Thesis at Prof Chris Barnes' Lab",
+    dates: 'June 2024 - September 2024',
     description:
       'Minimal Bacterial Genomes using Generative Machine Learning Models. Built a VAE model to generate new bacterial genomes and developed additional pipelines to assess genome viability.',
   },
   {
-    title: 'Summer project at Dr Charles Swanton’s Lab',
-    dates: 'June 2023 – July 2023',
+    title: "Summer project at Dr Charles Swanton's Lab",
+    dates: 'June 2023 - July 2023',
     description:
       'Studied applications of autoencoders on genetic data for cancer classification and investigated VAE models on gene expression data. Also pre-processed and organized a 300-page document with cancer gene information into a dataframe for future diagnostic pipelines.',
   },
   {
-    title: 'Bachelor’s Thesis at Prof Chris Barnes’ Lab',
-    dates: 'September 2022 – March 2023',
+    title: "Bachelor's Thesis at Prof Chris Barnes' Lab",
+    dates: 'September 2022 - March 2023',
     description:
       'Exploration of Variant Importance in Cancer Diagnostics using Machine Learning. Built machine learning models for prediction of cancer types using genomic data and analyzed the impact of SNVs, CNVs, and SVs on prediction accuracy.',
   },
   {
-    title: 'Summer project at Prof Richard Mott’s Lab',
-    dates: 'May 2022 – September 2022',
+    title: "Summer project at Prof Richard Mott's Lab",
+    dates: 'May 2022 - September 2022',
     description:
       'Conducted large-scale rat RNA-sequencing gene expression analysis to identify dominance signatures in alternative splicing across liver and fat tissues. This work highlighted computational bottlenecks that motivated a transition into AI and research software engineering.',
+  },
+];
+
+export const writing = [
+  {
+    title: "My first post",
+    date: '01-04-2026',
+    summary: '',
   },
 ];
 
@@ -151,6 +167,6 @@ export const certificates = [
     title: 'Программа дополнительного образования "Подготовка абитуриента" по биологии Московского Государственного Университета',
     issuer: 'Moscow State University',
     kind: 'course',
-    details: '2017–2019',
+    details: '2017-2019',
   },
 ];

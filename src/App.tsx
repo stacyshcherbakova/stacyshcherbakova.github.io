@@ -4,6 +4,7 @@ import { AboutPage } from './pages/AboutPage';
 import { CertificatesPage } from './pages/CertificatesPage';
 import { CvPage } from './pages/CvPage';
 import { ProjectsPage } from './pages/ProjectsPage';
+import { WritingPage } from './pages/WritingPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="cv" element={<CvPage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="certificates" element={<CertificatesPage />} />
+        <Route path="writing" element={<WritingPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Route>
     </Routes>
