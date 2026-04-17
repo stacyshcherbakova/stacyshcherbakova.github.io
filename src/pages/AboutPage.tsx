@@ -9,25 +9,13 @@ export function AboutPage() {
 
       <div className="stack-list">
         <section className="item-card">
-          <strong>Location</strong>
-          <p>{site.location}</p>
+          <strong>Currently</strong>
+          <p>{site.currently}</p>
         </section>
 
         <section className="item-card">
-          <strong>Contact</strong>
-          <div className="tag-row spaced-row">
-            {site.contact.socials.map((social) => (
-              <a
-                key={social.label}
-                className="tag social-tag"
-                href={social.href}
-                target={social.href.startsWith('mailto:') ? undefined : '_blank'}
-                rel={social.href.startsWith('mailto:') ? undefined : 'noreferrer'}
-              >
-                {social.label}
-              </a>
-            ))}
-          </div>
+          <strong>Interests</strong>
+          <p>{site.interests}</p>
         </section>
       </div>
     </section>

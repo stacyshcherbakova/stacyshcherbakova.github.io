@@ -29,6 +29,21 @@ export function Layout() {
       <main className="page-wrap">
         <Outlet />
       </main>
+
+      <footer className="site-footer">
+        <span>{site.location}</span>
+        <span className="footer-sep">·</span>
+        {site.contact.socials.map((social, i) => (
+          <a
+            key={social.label}
+            href={social.href}
+            target={social.href.startsWith('mailto:') ? undefined : '_blank'}
+            rel={social.href.startsWith('mailto:') ? undefined : 'noreferrer'}
+          >
+            {social.label}{i < site.contact.socials.length - 1 && <span className="footer-sep">·</span>}
+          </a>
+        ))}
+      </footer>
     </div>
   );
 }

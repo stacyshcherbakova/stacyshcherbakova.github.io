@@ -5,6 +5,13 @@ export function CvPage() {
     <section className="page-card">
       <p className="eyebrow">CV</p>
       <h2>Curriculum Vitae</h2>
+      <a
+        href="/Anastasiia_Shcherbakova_CV_2026.pdf"
+        download
+        className="tag social-tag"
+      >
+        Download PDF
+      </a>
       <p>{cvSummary.headline}</p>
       <p className="section-text">{cvSummary.blurb}</p>
 

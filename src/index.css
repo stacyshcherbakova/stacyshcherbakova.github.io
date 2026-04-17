@@ -207,6 +207,33 @@ h2 {
   text-decoration: underline;
 }
 
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(198, 164, 255, 0.2);
+  font-size: 0.82rem;
+  color: #8b78a2;
+}
+
+.site-footer a {
+  color: #8b78a2;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.site-footer a:hover {
+  color: #6f4d98;
+}
+
+.footer-sep {
+  color: rgba(198, 164, 255, 0.6);
+}
+
 @media (max-width: 860px) {
   .nav {
     justify-content: flex-start;
