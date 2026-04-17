@@ -6,10 +6,6 @@ export function AboutPage() {
       <p className="eyebrow">About</p>
       <h2>Hi, I’m Stacy.</h2>
       <p>{site.intro}</p>
-      <p>
-        This page can become your more personal introduction: what you care about, what you build,
-        what kinds of problems you enjoy, and what makes your work yours.
-      </p>
 
       <div className="stack-list">
         <section className="item-card">
