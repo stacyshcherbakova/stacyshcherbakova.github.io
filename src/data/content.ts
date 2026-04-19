@@ -139,6 +139,41 @@ export const researchProjects = [
   },
 ];
 
+export const mentorship = {
+  intro:
+    'Between the ages of 11 and 14, I lived in the UK and found the transition genuinely hard. New education system, new culture, new way of doing everything. When I arrived at UCL as an international student on the Undergraduate Preparatory Certificate programme, I wanted to make that journey a bit easier for the people coming after me, so I looked for every opportunity to do that.',
+  roles: [
+    {
+      title: 'UPCSE Biology Student Representative',
+      org: 'UCL',
+      dates: 'Oct 2019 – May 2020 · 8 months',
+      description:
+        'While still a UPC student myself, I represented the views of peers taking the biology module to programme staff and module professors. I gathered feedback, raised concerns in student rep meetings, and made sure the needs of a cohort of international students new to the UK system were actually heard.',
+    },
+    {
+      title: 'UPC (UPCSE) Mentor',
+      org: 'UCL',
+      dates: 'Sep 2020 – Mar 2021 · 7 months',
+      description:
+        'In my first year of undergrad, I mentored incoming UPC students across two terms, right in the middle of COVID. Students were navigating remote learning far from home and the extra support really mattered. My groups had a strong show-up rate every week with cameras on, which meant a lot. That experience is what made me want to keep going with mentorship.',
+    },
+    {
+      title: 'UPC Ambassador',
+      org: 'UCL',
+      dates: 'Sep 2020 – Sep 2023 · 3 years',
+      description:
+        'For three years I represented the UPC programme to prospective students. I hosted Zoom Q&A sessions where applicants could ask honest questions about the programme and life at UCL, and I gave campus tours to school students visiting the university. I tried to share what I actually wished someone had told me when I was in their position.',
+    },
+    {
+      title: 'Biomedical Sciences Mentor',
+      org: 'UCL',
+      dates: 'Sep 2021 – Jun 2023 · 1 year 10 months',
+      description:
+        'In my second and third years I mentored first-year Biomedical Sciences students through their first term at UCL. I wanted to be the kind of person I would have wanted when I was starting out: someone you could ask the questions that felt too small or too obvious to ask officially, and who helped you find your feet without making a big deal of it.',
+    },
+  ],
+};
+
 export const certificates = [
   {
     title: 'Data Scientists Professional Training Course',

@@ -4,7 +4,7 @@ export function AboutPage() {
   return (
     <section className="page-card">
       <p className="eyebrow">About</p>
-      <h2>Hi, I’m Stacy.</h2>
+      <h2>Welcome!</h2>
       <p>{site.intro}</p>
 
       <div className="stack-list">

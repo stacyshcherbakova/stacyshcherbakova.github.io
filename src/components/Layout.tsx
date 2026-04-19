@@ -6,6 +6,7 @@ const navItems = [
   ['/cv', 'CV'],
   ['/projects', 'Projects'],
   ['/certificates', 'Certificates'],
+  ['/mentorship', 'Mentorship'],
 ] as const;
 
 export function Layout() {
