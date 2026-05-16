@@ -23,7 +23,7 @@ export const cvSummary = {
   headline:
     'Research Software Engineer focused on accelerating biological discovery through AI since 2022, with a strong biomedical foundation.',
   blurb:
-    'Experienced in collaborating closely with researchers to develop and deploy scalable computational tools for genomics and cancer research, from HPC-enabled pipelines to full-stack applications. Skilled in Python, machine learning, containerized infrastructure, CI/CD automation, and interdisciplinary teamwork.',
+    'Experienced in collaborating closely with researchers to develop and deploy scalable computational tools for genomics and cancer research, from HPC-enabled pipelines to full-stack applications. Skilled in Python, machine learning, containerized infrastructure, CI/CD automation, and interdisciplinary teamwork. Interested in building AI Scientists and Robot Scientists to accelerate scientific discovery, while also exploring how AI can partially automate web-based research and operational workflows.',
   contact: 'London, UK · stacy.shcherbakova@icr.ac.uk',
 };
 

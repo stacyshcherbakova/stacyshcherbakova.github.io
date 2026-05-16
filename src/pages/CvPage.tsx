@@ -1,4 +1,4 @@
-import { cvSummary, education, experience, publications, researchProjects, skills } from '../data/content';
+import { education, experience, publications, researchProjects, skills } from '../data/content';
 
 export function CvPage() {
   return (
@@ -12,8 +12,6 @@ export function CvPage() {
       >
         Download PDF
       </a>
-      <p>{cvSummary.headline}</p>
-      <p className="section-text">{cvSummary.blurb}</p>
 
       <div className="stack-list">
         <section className="item-card">

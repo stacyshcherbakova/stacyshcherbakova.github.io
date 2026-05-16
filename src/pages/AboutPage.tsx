@@ -6,6 +6,11 @@ export function AboutPage() {
       <p className="eyebrow">About</p>
       <h2>Welcome!</h2>
       <p>{site.intro}</p>
+      <p>
+        <strong>
+          Interested in building AI Scientists and Robot Scientists to accelerate scientific discovery, while also exploring how AI can partially automate web-based research and operational workflows.
+        </strong>
+      </p>
 
       <div className="stack-list">
         <section className="item-card">
