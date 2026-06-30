@@ -3,8 +3,6 @@ import { projects } from '../data/content';
 export function ProjectsPage() {
   return (
     <section className="page-card">
-      <p className="eyebrow">Projects</p>
-      <h2>Selected work</h2>
       <div className="stack-list">
         {projects.map((project) => (
           <article key={project.name} className="item-card">

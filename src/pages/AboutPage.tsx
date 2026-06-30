@@ -3,8 +3,6 @@ import { site } from '../data/content';
 export function AboutPage() {
   return (
     <section className="page-card">
-      <p className="eyebrow">About</p>
-      <h2>Welcome!</h2>
       <p>{site.intro}</p>
       <p>
         <strong>

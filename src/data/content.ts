@@ -4,7 +4,7 @@ export const site = {
   tagline: 'Building software @ The Institute of Cancer Reseach',
   intro:
     'Research Software Engineer focused on accelerating biological discovery through AI since 2022, with a strong biomedical foundation. Experienced in collaborating closely with researchers to develop and deploy scalable computational tools for genomics and cancer research, from HPC-enabled pipelines to full-stack applications. Skilled in Python, machine learning, containerized infrastructure, CI/CD automation, and interdisciplinary teamwork.',
-  currently: 'Participating in the Nucleate UK Catalyse programme as a contributor.',
+  currently: 'Leading and organising events for Nucleate UK — most recently Material Hack — and contributing to the Nucleate UK Catalyse programme.',
   interests: 'Passionate about AI for science — using machine learning to accelerate scientific discovery, particularly in biology and medicine. Keen to contribute to and grow the AI for science and biotech community.',
   location: 'London, UK',
   contact: {
@@ -27,7 +27,15 @@ export const cvSummary = {
   contact: 'London, UK · stacy.shcherbakova@icr.ac.uk',
 };
 
-export const experience = [
+type ExperienceItem = {
+  role: string;
+  org: string;
+  dates: string;
+  bullets: string[];
+  images?: { src: string; alt: string }[];
+};
+
+export const experience: ExperienceItem[] = [
   {
     role: 'Research Software Engineer',
     org: 'Institute of Cancer Research',
@@ -38,6 +46,20 @@ export const experience = [
       'Optimised computational performance of large-scale workflows, reducing HPC resource usage and improving reproducibility for publication-ready analyses.',
       'Delivered Carpentries-style training and provided ongoing support in software engineering best practices, code optimisation, and effective use of HPC environments.',
       'Created written and video tutorials (YouTube) to help researchers run software on the Alma HPC cluster at ICR.',
+    ],
+  },
+  {
+    role: 'Lead',
+    org: 'Nucleate UK',
+    dates: 'April 2026 – Present',
+    bullets: [
+      'Lead and help organise events for Nucleate UK, supporting the biotech and life-sciences founder community in the UK.',
+      'Organised Material Hack, the latest event, coordinating participants and on-the-day logistics.',
+    ],
+    images: [
+      { src: '/events/material-hack-1.jpg', alt: 'Material Hack — Nucleate UK team' },
+      { src: '/events/material-hack-2.jpg', alt: 'Material Hack — networking' },
+      { src: '/events/material-hack-3.jpg', alt: 'Material Hack — audience' },
     ],
   },
 ];
@@ -92,6 +114,12 @@ export const publications = [
 ];
 
 export const projects = [
+  {
+    name: 'Prism App Playground',
+    description: 'Trying to build a competitive open-source alternative to GraphPad Prism.',
+    tags: ['Open Source', 'Data Visualisation', 'Statistics'],
+    href: 'https://github.com/stacyshcherbakova/prism-app-playground',
+  },
   {
     name: 'Genome Minimizer 2 UI',
     description: 'A local interface for running the genome-minimizer-2 pipeline, inspecting logs, and browsing generated artifacts.',

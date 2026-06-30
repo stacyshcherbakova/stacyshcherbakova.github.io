@@ -14,9 +14,8 @@ export function Layout() {
     <div className="site-shell">
       <header className="site-header">
         <div className="hero-stack">
-          <p className="site-name">{site.name}</p>
-          <h1>{site.title}</h1>
-          <p className="tagline">{site.tagline}</p>
+          <h1 className="site-name">{site.name}</h1>
+          <p className="masthead-role">Research Software Engineer @ ICR <span>|</span> Nucleate UK</p>
           <nav className="nav">
             {navItems.map(([to, label]) => (
               <NavLink key={to} to={to} end={to === '/'} className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>

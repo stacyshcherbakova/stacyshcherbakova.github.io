@@ -3,8 +3,6 @@ import { certificates } from '../data/content';
 export function CertificatesPage() {
   return (
     <section className="page-card">
-      <p className="eyebrow">Certificates</p>
-      <h2>Certificates and courses</h2>
       <div className="stack-list">
         {certificates.map((item) => (
           <article key={item.title} className="item-card">

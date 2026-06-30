@@ -3,8 +3,6 @@ import { mentorship } from '../data/content';
 export function MentorshipPage() {
   return (
     <section className="page-card">
-      <p className="eyebrow">Mentorship</p>
-      <h2>Mentorship & Community</h2>
       <p>{mentorship.intro}</p>
 
       <div className="stack-list">
