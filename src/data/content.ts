@@ -4,7 +4,7 @@ export const site = {
   tagline: 'Building software @ The Institute of Cancer Reseach',
   intro:
     'Research Software Engineer focused on accelerating biological discovery through AI since 2022, with a strong biomedical foundation. Experienced in collaborating closely with researchers to develop and deploy scalable computational tools for genomics and cancer research, from HPC-enabled pipelines to full-stack applications. Skilled in Python, machine learning, containerized infrastructure, CI/CD automation, and interdisciplinary teamwork.',
-  currently: 'Leading and organising events for Nucleate UK — most recently Material Hack — and contributing to the Nucleate UK Catalyse programme.',
+  currently: 'Leading and organising events for Nucleate UK — most recently Material Hack.',
   interests: 'Passionate about AI for science — using machine learning to accelerate scientific discovery, particularly in biology and medicine. Keen to contribute to and grow the AI for science and biotech community.',
   location: 'London, UK',
   contact: {
@@ -115,10 +115,10 @@ export const publications = [
 
 export const projects = [
   {
-    name: 'Prism App Playground',
-    description: 'Trying to build a competitive open-source alternative to GraphPad Prism.',
+    name: 'BenchGraph',
+    description: 'Building a competitive open-source alternative to commercial scientific graphing and statistics software.',
     tags: ['Open Source', 'Data Visualisation', 'Statistics'],
-    href: 'https://github.com/stacyshcherbakova/prism-app-playground',
+    href: 'https://github.com/stacyshcherbakova/benchgraph',
   },
   {
     name: 'Genome Minimizer 2 UI',
